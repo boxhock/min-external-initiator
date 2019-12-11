@@ -17,3 +17,13 @@ only serves as a quick introduction into how External Initiators work.
   }
 }
 ```
+
+## Set up
+
+Set the CL node credentials as environment variables:
+
+```.dotenv
+CHAINLINK_URL=http://localhost:6688
+CHAINLINK_ACCESS=abc # Access key generated for this external initiator
+CHAINLINK_SECRET=abc # Access secret generated for this external initiator
+```
